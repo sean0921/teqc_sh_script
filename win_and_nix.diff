@@ -1,0 +1,13 @@
+diff --git a/HHA10370.17o.orig b/HHA10370.17o
+index b5a03e7..c2f01ad 100644
+--- a/HHA10370.17o.orig
++++ b/HHA10370.17o
+@@ -1,6 +1,6 @@
+      2.11           OBSERVATION DATA    M (MIXED)           RINEX VERSION / TYPE
+-teqc  2017Sep15                         20180822 06:10:04UTCPGM / RUN BY / DATE
+-Linux2.6.32-573.12.1.el6.x86_64|x86_64|gcc|Win64-MinGW64|=+ COMMENT
++teqc  2018Jun8      user                20180822 07:12:40UTCPGM / RUN BY / DATE
++Linux 2.6.32-573.12.1.x86_64|x86_64|gcc|Linux 64|=+         COMMENT
+ BIT 2 OF LLI FLAGS DATA COLLECTED UNDER A/S CONDITION       COMMENT
+ 30s_24h                                                     MARKER NAME
+ HHA1                                                        MARKER NUMBER
