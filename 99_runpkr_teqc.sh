@@ -4,11 +4,11 @@ case "$1" in
 
 	dir)
 		cd $2 && \
-			for i in $(ls *.T0[0-2])
+			for i in $(ls *.[Tt]0[0-2])
 			do runpkr00 -g -d $i
 			done \
 		&& \
-			for j in $(ls *.tgd || ls *.dat)
+			for j in $(ls *.tgd *.dat)
 			do teqc -tr d +obs + -tbin 1d $(echo $j|cut -b 1-4) $j
 			done
 		;;
